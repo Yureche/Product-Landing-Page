@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height:100%;
+}
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-logo, .header-links {
+    margin: 10px 30px 5px; 
+}
+
+
+.nav a {
+    color: #f9faf8;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;    
+    justify-content: center;  
+    width: 1000px;
+    margin: auto; 
+    margin-top: 150px;
+    padding: 15x;
+}
+
+.main-info h1 {
+    font-size: 48px;
+    margin: 10px;
+}
+
+.main-info p {
+    margin: 10px
+}
+
+.main-info button {
+    margin: 10px;
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.main-info button:hover {
+        color: #fff;
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+}
+
