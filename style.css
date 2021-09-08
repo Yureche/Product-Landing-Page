@@ -84,3 +84,42 @@ body {
         border-color: #0a58ca;
 }
 
+
+ .info-heading {
+    margin: 0 auto;
+  }
+  
+  .random-info {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+  }
+
+  .random-info .info-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.product-info {
+    margin: 15px;
+    width: 200px;
+}
+
+
+.quote-container {
+    height:50%;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    color: #1f2937;
+    font-style: italic;
+}
