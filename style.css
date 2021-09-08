@@ -143,11 +143,12 @@ body {
 
 
 .sign-up-container {
-    height: 30%;
+    height: 40%;
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .sign-up {
@@ -159,6 +160,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.sign-up-text p, .sign-up-text h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .sign-up-button button {
@@ -180,3 +186,18 @@ body {
 
 }
 
+
+.footer {
+    position: relative;
+    background-color: #1f2937;
+    height: 15%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer a {
+    color: #fff;
+}
